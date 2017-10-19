@@ -1,0 +1,15 @@
+
+<body class="body group opdracht-include-require">
+	<h1>Nieuws</h1>
+
+	<?php 
+	
+		foreach ( $artikels as $id => $artikel) { 
+			echo '<article>'; 
+			echo '<h1>' . $artikel['title'] . '</h1>'; 
+			echo '<p>' . $artikel['body'] . '</p>'; 
+			echo '<p>' . $artikel['tags'] . '</p>'; echo '</article>'; 
+		} 
+	?>
+
+</body>
