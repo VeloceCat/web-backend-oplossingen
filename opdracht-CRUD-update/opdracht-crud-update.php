@@ -1,3 +1,40 @@
+<style>
+	.modal
+	{
+		padding			:	6px;
+		border-radius	:	3px;
+	}
+
+	.success
+	{
+		background-color:lightgreen;
+	}
+
+	.error
+	{
+		background-color:red;
+	}
+
+	.even
+	{
+		background-color:lightgrey;
+	}
+
+	.delete-button
+	{
+		background-color	:	transparent;
+		border				:	none;
+		padding				:	0px;
+		cursor				:	pointer;
+	}
+
+	.confirm-delete
+	{
+		background-color	:	red;
+		color				: 	white;
+	}
+</style>
+
 <?php
 	$servername = 'localhost';
     $username = 'vincent';
@@ -128,45 +165,6 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Oplossing oefening 026 - a</title>
-		<style>
-			.modal
-			{
-				padding			:	6px;
-				border-radius	:	3px;
-			}
-
-			.success
-			{
-				background-color:lightgreen;
-			}
-
-			.error
-			{
-				background-color:red;
-			}
-
-			.even
-			{
-				background-color:lightgrey;
-			}
-
-			.delete-button
-			{
-				background-color	:	transparent;
-				border				:	none;
-				padding				:	0px;
-				cursor				:	pointer;
-			}
-
-			.confirm-delete
-			{
-				background-color	:	red;
-				color				: 	white;
-			}
-		</style>
-	</head>
 <body>
 
 	<h1>Oplossing oefening 026 - a</h1>
