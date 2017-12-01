@@ -1,25 +1,25 @@
 <style>
-    .modal
-    {
-        padding			:	6px;
-        border-radius	:	3px;
-    }
+        .modal
+        {
+            padding			:	6px;
+            border-radius	:	3px;
+        }
 
-    .success
-    {
-        background-color:lightgreen;
-    }
+        .success
+        {
+            background-color:lightgreen;
+        }
 
-    .error
-    {
-        background-color:red;
-    }
+        .error
+        {
+            background-color:red;
+        }
 
-    .even
-    {
-        background-color:lightgrey;
-    }
-</style>
+        .even
+        {
+            background-color:lightgrey;
+        }
+    </style>
 
 <?php
     $servername = 'localhost';
